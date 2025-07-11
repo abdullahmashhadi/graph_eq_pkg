@@ -41,33 +41,38 @@ graph_equation("cos(x) + sin(2*x)", save_path="my_graph.png")
 ## 📊 Examples
 
 ### Linear Function
+
 ```python
 graph_equation("2*x + 3")
 ```
 
 ### Quadratic Function
+
 ```python
 graph_equation("x**2 - 4*x + 3")
 ```
 
 ### Trigonometric Function
+
 ```python
 graph_equation("sin(x) + cos(2*x)")
 ```
 
 ### Exponential Function
+
 ```python
 graph_equation("exp(-x**2) * sin(5*x)")
 ```
 
 ### Multiple Equations
+
 ```python
 from abdullah_graph_eq import EquationGrapher
 
 grapher = EquationGrapher()
 grapher.plot_multiple([
-    "x**2", 
-    "x**3", 
+    "x**2",
+    "x**3",
     "sin(x)"
 ], x_range=(-3, 3))
 ```
@@ -77,6 +82,7 @@ grapher.plot_multiple([
 ### `graph_equation(equation_str, **kwargs)`
 
 **Parameters:**
+
 - `equation_str` (str): The mathematical equation as a string
 - `x_range` (tuple): Range of x values, default `(-10, 10)`
 - `num_points` (int): Number of points to plot, default `1000`
@@ -85,20 +91,21 @@ grapher.plot_multiple([
 - `show` (bool): Whether to display the plot, default `True`
 
 **Returns:**
+
 - `matplotlib.figure.Figure`: The matplotlib figure object
 
 ### Supported Functions
 
-| Function | Example | Description |
-|----------|---------|-------------|
-| `sin(x)` | `"sin(x)"` | Sine function |
-| `cos(x)` | `"cos(x)"` | Cosine function |
-| `tan(x)` | `"tan(x)"` | Tangent function |
-| `exp(x)` | `"exp(x)"` | Exponential function |
-| `log(x)` | `"log(x)"` | Natural logarithm |
-| `sqrt(x)` | `"sqrt(x)"` | Square root |
-| `abs(x)` | `"abs(x)"` | Absolute value |
-| `x**n` | `"x**2"` | Power function |
+| Function  | Example     | Description          |
+| --------- | ----------- | -------------------- |
+| `sin(x)`  | `"sin(x)"`  | Sine function        |
+| `cos(x)`  | `"cos(x)"`  | Cosine function      |
+| `tan(x)`  | `"tan(x)"`  | Tangent function     |
+| `exp(x)`  | `"exp(x)"`  | Exponential function |
+| `log(x)`  | `"log(x)"`  | Natural logarithm    |
+| `sqrt(x)` | `"sqrt(x)"` | Square root          |
+| `abs(x)`  | `"abs(x)"`  | Absolute value       |
+| `x**n`    | `"x**2"`    | Power function       |
 
 ## 🛠️ Development
 
