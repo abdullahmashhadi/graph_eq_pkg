@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
 authors = [
-    {name = "Abdullah", email = "your.email@example.com"}
+    {name = "Abdullah", email = "abdullah6blue@gmail.com"}
 ]
 keywords = ["mathematics", "plotting", "graphing", "equations", "visualization"]
 classifiers = [
@@ -35,6 +35,6 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/abdullah_graph_eq"
-"Bug Reports" = "https://github.com/yourusername/abdullah_graph_eq/issues"
-Source = "https://github.com/yourusername/abdullah_graph_eq"
+Homepage = "https://github.com/abdullahmashhadi/abdullah_graph_eq"
+"Bug Reports" = "https://github.com/abdullahmashhadi/abdullah_graph_eq/issues"
+Source = "https://github.com/abdullahmashhadi/abdullah_graph_eq"
